@@ -12,3 +12,7 @@ $ sudo add-apt-repository --yes --update ppa:ansible/ansible
 $ sudo apt install ansible
 
 ----------------------------------
+
+Run: bash a.sh
+----------------------------------
+offical doc: https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-ubuntu
