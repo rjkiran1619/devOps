@@ -1,0 +1,10 @@
+Web Server 
+--------------------------
+Nginx
+sudo apt install nginx
+
+--------------------------
+
+Apache
+sudo apt install apache2 -y
+___________________________
