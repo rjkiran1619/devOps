@@ -1,1 +1,10 @@
+#Docker installation  
 
+_______________________________________________________
+
+sudo apt install docker.io
+
+-------------
+
+validation: 
+sudo docker run hello-world
