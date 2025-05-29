@@ -1,0 +1,28 @@
+minikube configuration and installation.
+--------------------------------------------
+
+Compose of :
+
+minikube // single cluster 
+Kubectl // k8s command line interface
+
+-----------------------------------------------
+
+Prerequistion as :
+
+2 CPU
+2gb RAM
+20 Free Space
+-----------------------------------------------
+
+install:
+kubectl:
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
+minicube:
+curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+
+----------------------------------------------
+
+
